@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+  gui:
+    build: .
+    depends_on:
+      - mongo
+    ports:
+      - 8094:8094
+    environment:
+      MONGO_HOST: mongo
