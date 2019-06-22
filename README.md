@@ -1,5 +1,8 @@
 [![Github Release Version](https://img.shields.io/badge/release-V1.0-blue.svg)](https://github.com/flipkart-incubator/Astra)
 [![Github Release Version](https://img.shields.io/badge/python-2.7-blue.svg)](https://github.com/flipkart-incubator/Astra)
+[![GitHub stars](https://img.shields.io/github/stars/flipkart-incubator/astra.svg)](https://github.com/flipkart-incubator/astra/stargazers)
+[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#Astra)
+[![GitHub license](https://img.shields.io/github/license/flipkart-incubator/Astra.svg)](https://github.com/flipkart-incubator/Astra/blob/master/LICENSE)
 
 [![BH 2018 USA](https://img.shields.io/badge/Black%20Hat%20Arsenal-USA%202018-blue.svg)](https://www.blackhat.com/us-18/arsenal/schedule/index.html#astra-automated-security-testing-for-rest-apis-11976)
 
