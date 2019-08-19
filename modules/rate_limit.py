@@ -32,7 +32,7 @@ def generate_list(length,type):
 
 def brute_force(url,method,headers,body,attack_params,scanid):
 	attack_result = {}
-	failed_set = ['exceed','captcha','too many','rate limit','Maximum login']
+	failed_set = ['exceed','captcha','too many','rate limit','maximum login']
 	if len(attack_params) == 1:
 		# attack_params[0] is a first value from list Ex Pin, password
 		param_value = body[attack_params[0]] # param_value is a value of param. Example: 1234
@@ -68,7 +68,7 @@ def brute_force(url,method,headers,body,attack_params,scanid):
 			if len(brute_request.text) == http_len:
 				if str(brute_request.status_code)[0] == '2' or  str(brute_request.status_code)[0] == '4':
 					for failed_name in failed_set:
-						 if failed_name in brute_request.text:
+						 if failed_name in brute_request.text.lower():
 						 	# Brute force protection detected :-( 
 						 	result = False
 						 	break
